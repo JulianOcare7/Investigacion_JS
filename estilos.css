@@ -3,7 +3,7 @@
 }
 
 body{
-    margin: 0;
+    margin: 30px;
 }
 
 h1{
@@ -61,7 +61,7 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: yellow;
+    color: black;
     font-size: 1.40em;
 }
 
@@ -122,3 +122,76 @@ header a:hover{
         padding-bottom: 0;
         padding-right: 20px;
     }
+
+    #proyectoJS .img-container{
+        background-image: linear-gradient(
+            0deg
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ), url("Imagenes/programacion.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+    }
+    
+    #proyectoJS .container{
+        text-align: center;
+        padding: 200px 12px;
+        justify-content: center;
+    }
+    
+    @media (min-width: 720px){
+        header{
+            position: fixed;
+            width: 100%;
+        }
+    }
+    
+    .color-acento{ color: gold; }
+
+    .color-sub{ color: orange; }
+
+#punto2 .programas{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#punto2 p{
+    display: block;
+}
+
+#punto2 .carta{
+    padding: 50px;
+}
+
+#punto2 h3{
+    margin-top: 0;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Imagenes/programacion.jpg");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Imagenes/programacion.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Imagenes/programacion.jpg");
+}
