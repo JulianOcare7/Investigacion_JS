@@ -13,7 +13,7 @@ body{
 }
 
 h1{
-    font-family: "LiberationSerif" ;
+    font-family: "serif" ;
     font-size: 20pt;
     text-align: center;
     margin: 25px;
@@ -22,11 +22,11 @@ h1{
 }
 
 h2{
-    font-family: "LiberationSerif" ;
+    font-family: "serif" ;
     font-size: 20pt;}
 
-h3{ color: blueviolet;
-    font-family: "LiberationSerif" ;
+h2, h3{ color: rgb(58, 20, 94);
+    font-family: "serif" ;
     font-size: 20pt;}
 
 p{
@@ -232,10 +232,52 @@ header a:hover{
 }
 
 #integ{
-    margin: 130px 130px;
+    margin: 100px 100px;
 }
 
 #pasos{
     background-image: url("Imagenes/captcha.png");
     background-repeat: no-repeat;
+}
+
+#img-variables{
+    text-align: center;
+}
+
+#eventos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0.5)
+    )
+    ,url("Imagenes/pc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#estructuras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0.5)
+    )
+    ,url("Imagenes/pro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
