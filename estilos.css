@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+#cuerpo{
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: #babda0;
+}
+
 body{
     margin: 35px;
 }
@@ -9,7 +15,11 @@ body{
 h1{
     font-family: "LiberationSerif" ;
     font-size: 20pt;
-    text-align: center;}
+    text-align: center;
+    margin: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
 
 h2{
     font-family: "LiberationSerif" ;
@@ -197,28 +207,35 @@ header a:hover{
     ,url("Imagenes/javascript.png");
 }
 
-#proyectoJS{
-    background-color: grey;
-}
-
-#variables{
-    background-color: grey;
-}
-
 #contendedor-imagenes{
     float: left;
 }
 
 .carta{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-image: url("Imagenes/programacion.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
     color: white;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0.5)
     )
+    ,url("Imagenes/programacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     
+}
+
+#integ{
+    margin: 130px 130px;
+}
+
+#pasos{
+    background-image: url("Imagenes/captcha.png");
+    background-repeat: no-repeat;
 }
